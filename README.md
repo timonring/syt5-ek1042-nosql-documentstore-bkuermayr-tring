@@ -21,15 +21,15 @@ Wenn wir nach Ausführung des Docker-Containers `localhost:8091` aufrufen, komme
 
 Hier wählen wir "Setup New Cluster" und erstellen dann einen Admin-Nutzer (user: admin, pw: 2Ut@V2yw@NrN33t):
 
-![](C:\Users\Benjamin%20Kuermayr\Desktop\Schule\Jahr21_22\SYT\syt5-ek1042-nosql-documentstore-bkuermayr-tring\assets\2022-04-07-13-02-56-image.png)
+![](./assets\2022-04-07-13-02-56-image.png)
 
 Damit kommen wir nun zum Couchbase-Dashboard, wo weitere Konfigurationen möglich sind:
 
-![](C:\Users\Benjamin%20Kuermayr\Desktop\Schule\Jahr21_22\SYT\syt5-ek1042-nosql-documentstore-bkuermayr-tring\assets\2022-04-07-13-04-14-image.png)
+![](./assets\2022-04-07-13-04-14-image.png)
 
 Für Testzwecke erstellen wir hier gleich einen ersten Bucket mit dem Namen "einkaufsliste":
 
-![](C:\Users\Benjamin%20Kuermayr\Desktop\Schule\Jahr21_22\SYT\syt5-ek1042-nosql-documentstore-bkuermayr-tring\assets\2022-04-07-13-18-44-image.png)
+![](./assets/2022-04-07-13-18-44-image.png)
 
 ### Couchbase testen mit Python
 
@@ -78,7 +78,7 @@ bananen = result.content_as[str]
 print(bananen)
 ```
 
-![](C:\Users\Benjamin%20Kuermayr\Desktop\Schule\Jahr21_22\SYT\syt5-ek1042-nosql-documentstore-bkuermayr-tring\assets\2022-04-07-13-36-00-image.png)
+![](./assets\2022-04-07-13-36-00-image.png)
 
 ### Delete documents
 
